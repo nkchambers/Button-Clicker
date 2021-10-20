@@ -1,0 +1,162 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+#container {
+    width: 950px;
+    margin: 0px auto;
+}
+.nav {
+    background-color: rgb(180, 170, 170);
+    display: flex;
+    align-items: center;
+    width: 900px;
+    padding: 20px 20px;
+}
+.nav h1 {
+    color: rgb(29, 27, 27);
+    font-family: helvetica;
+}
+.search {
+    border: black 2px solid;
+    background-color: white;
+    width: 350px;
+    height: 30px;
+    margin-left: 125px;
+}
+.nav button {
+    border-color: rgb(65, 57, 57);
+    font-size: 18px;
+    font-family: helvetica;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(50, 88, 190);
+    box-shadow: 5px 5px black;
+    padding: 5px 30px;
+    margin-left: 140px;
+}
+.main-content {
+    margin: 0px auto;
+    width: 950px;
+    height: 800px;
+    display: flex;
+}
+.col-left {
+    flex: 2;
+}
+.ninja-ninjutsu {
+    border: black 5px solid;
+    width: 550px;
+    height: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.ninjutsu-left > h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-right: 25px;
+}
+.ninjutsu-left > h5 {
+    font-size: 20px;
+    text-align: center;
+    margin-right: 25px;
+    margin-bottom: 5px;
+}
+.ninjutsu-left > p {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 25px;
+    margin-bottom: 30px;
+}
+.ninjutsu-left button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: black solid 2px;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 5px 5px;
+    margin-right: 25px;
+}
+.ninjutsu-right > p {
+    font-size: 18px;
+    font-family: helvetica;
+    font-weight: bold;
+}
+.ninja-programmer {
+    border: black 5px solid;
+    width: 550px;
+    height: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.programmer-left > h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-right: 25px;
+}
+.programmer-left > h5 {
+    font-size: 20px;
+    text-align: center;
+    margin-right: 25px;
+    margin-bottom: 5px;
+}
+.programmer-left > p {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 25px;
+    margin-bottom: 30px;
+}
+.programmer-left > button {
+    padding: 10px 25px;
+    border: black solid 2px;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 5px 5px;
+}
+.programmer-right > p {
+    font-size: 18px;
+    font-family: helvetica;
+    font-weight: bold;
+}
+.col-right {
+    flex: 1;
+}
+.add-definition {
+    width: 300px;
+    height: 200px;
+    border: black 5px solid;
+    margin-top: 20px;
+}
+.add-definition > h3 {
+    font-family: helvetica;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.add-definition button {
+    padding: 10px 65px;
+    border: black solid 2px;
+    background-color:rgb(90, 168, 90);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 5px 5px;
+    margin-left: 15px;
+}
+
+
+
+
+
